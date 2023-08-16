@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Регистрация пользователей</title>
+</head>
+<body>
+    <h2>Регистрация пользователя</h2>
+    <form id="registrationForm" action="/register" method="post">
+        <label>Имя:</label>
+        <input type="text" name="name" required><br>
+        <label>Возраст:</label>
+        <input type="number" name="age" required><br>
+        <input type="submit" value="Зарегистрировать">
+    </form>
+    <button onclick="window.location.href='/users.html'">Посмотреть пользователей</button>
+</body>
+</html>
